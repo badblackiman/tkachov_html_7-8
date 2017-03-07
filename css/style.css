@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+    url('../fonts/leaguegothic-regular-webfont.woff') format('woff');
+}
+.header__fon{
+    height: 846px;
+    background: url("../img/bg_top.jpg") center top no-repeat;
+}
+p > .logo_after{
+    background: -webkit-linear-gradient(#745083, #33263a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p > .logo_after{
+    color: #533b5e;
+}
+.logo p{
+    font-family: LeagueGothic, serif;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    line-height: 33.724px;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.menu__top li{
+    font-family: LeagueGothic, serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 24px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 33.724px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.menu__top li:hover{
+    border-bottom: 2px solid #edbfff;
+}
+.menu__top a{
+    text-decoration: none;
+    color: #fff;
+}
+@media (min-width: 320px){
+
+}
+@media (min-width: 480px){
+
+}
+
+@media (min-width: 768px) {
+    .header__top{
+        width:768px;
+        height: 770px;
+        margin: 0 auto;
+    }
+    .logo {
+        padding-top: 73px;
+        padding-left: 21px;
+    }
+    .menu__top li{
+        display: inline-block;
+        padding: 0 6px 0 6px;
+        margin: 33px 24px 0 12px;
+    }
+    .menu__top a{
+        display: block;
+    }
+}
+
+@media (min-width: 981px){
+    .header__top{
+        height: 846px;
+        width: 980px;
+        margin: 0 auto;
+    }
+    .logo{
+        float: left;
+        padding-top: 73px;
+        padding-left: 8px;
+    }
+    .menu__top{
+        float: right;
+    }
+    .menu__top li{
+        height: 30px;
+        display: inline-block;
+        padding: 0 6px 0 6px;
+        margin: 70px 6px 0 30px;
+    }
+    .menu__top a{
+        display: block;
+    }
+}
